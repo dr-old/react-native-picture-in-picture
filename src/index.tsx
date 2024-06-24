@@ -20,3 +20,7 @@ const PictureInPicture = NativeModules.PictureInPicture
 export function multiply(a: number, b: number): Promise<number> {
   return PictureInPicture.multiply(a, b);
 }
+
+export function pipMode(width: number, height: number) {
+  return PictureInPicture.activeMode(width, height);
+}
