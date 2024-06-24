@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-picture-in-picture": ["./src/index"]
+      "dr-old-react-native-pip": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

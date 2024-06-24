@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text, Button } from 'react-native';
-import { multiply, pipMode } from 'react-native-picture-in-picture';
+import { multiply, pipMode } from 'dr-old-react-native-pip';
 
 export default function App() {
   const [result, setResult] = React.useState<number | undefined>();

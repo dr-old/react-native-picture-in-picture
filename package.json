@@ -1,5 +1,5 @@
 {
-  "name": "dr-old-react-native-picture-in-picture",
+  "name": "dr-old-react-native-pip",
   "version": "0.1.0",
   "description": "demo picture in picture",
   "main": "lib/commonjs/index.js",
@@ -26,7 +26,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-picture-in-picture-example",
+    "example": "yarn workspace dr-old-react-native-pip-example",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -41,14 +41,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dr-old/react-native-picture-in-picture.git"
+    "url": "git+https://github.com/dr-old/react-native-pip.git"
   },
   "author": "Danni Ramdan <danniramdan96@gmail.com> (https://github.com/dr-old)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dr-old/react-native-picture-in-picture/issues"
+    "url": "https://github.com/dr-old/react-native-pip/issues"
   },
-  "homepage": "https://github.com/dr-old/react-native-picture-in-picture#readme",
+  "homepage": "https://github.com/dr-old/react-native-pip#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

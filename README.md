@@ -1,5 +1,5 @@
 
-# react-native-picture-in-picture
+# dr-old-react-native-pip
 
 is a package that allows you to enable Picture-in-Picture (PiP) mode in React Native applications. PiP mode is a feature that allows video apps to play in a small window that floats on top of other apps, giving users a better multitasking experience.
 
@@ -11,11 +11,11 @@ is a package that allows you to enable Picture-in-Picture (PiP) mode in React Na
 Install dependencies
 
 ```bash
-  npm install dr-old-react-native-picture-in-picture
+  npm install dr-old-dr-old-react-native-pip
 ```
 
 ```bash
-  yard add dr-old-react-native-picture-in-picture
+  yard add dr-old-dr-old-react-native-pip
 ```
 
 
@@ -40,10 +40,10 @@ To enable Picture-in-Picture mode in your Android app, you need to update Androi
 
 Using `pipMode` is a function that allows you to activate Picture-in-Picture mode with a specified aspect ratio.
 
-Import First, import the `pipMode` function from the `react-native-picture-in-picture` package.
+Import First, import the `pipMode` function from the `dr-old-react-native-pip` package.
 
 ```javascript
-import { pipMode } from 'react-native-picture-in-picture';
+import { pipMode } from 'dr-old-react-native-pip';
 ```
 
 Call `pipMode` with `width` and `height` parameters representing the aspect ratio.
@@ -59,7 +59,7 @@ Here is an example of using `pipMode` inside a React Native component:
 import * as React from 'react';
 
 import { StyleSheet, View, Text, Button } from 'react-native';
-import { pipMode } from 'react-native-picture-in-picture';
+import { pipMode } from 'dr-old-react-native-pip';
 
 export default function App() {
   return (
@@ -84,5 +84,5 @@ const styles = StyleSheet.create({
 
 ```
 
-# react-native-picture-in-picture
-# react-native-picture-in-picture
+# dr-old-react-native-pip
+# dr-old-react-native-pip
