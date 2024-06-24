@@ -11,11 +11,11 @@ is a package that allows you to enable Picture-in-Picture (PiP) mode in React Na
 Install dependencies
 
 ```bash
-  npm install dr-old-dr-old-react-native-pip
+  npm install dr-old-react-native-pip
 ```
 
 ```bash
-  yard add dr-old-dr-old-react-native-pip
+  yard add dr-old-react-native-pip
 ```
 
 
@@ -31,7 +31,7 @@ To enable Picture-in-Picture mode in your Android app, you need to update Androi
     ...
     android:resizeableActivity="true"
     android:supportsPictureInPicture="true"
-    android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|smallestScreenSize|uiMode">
+    android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|smallestScreenSize|uiMode"
     ...
 </activity>
 
